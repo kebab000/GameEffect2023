@@ -1,0 +1,174 @@
+.tetris__wrap {
+    display: none;
+  }
+  
+  .tetris__inner {
+    width: 550px;
+    height: 700px;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    background: rgba(0, 0, 0, 0.8);
+    border: 3px solid rgb(213, 180, 236);
+    animation: flicker 1.5s infinite alternate;
+  }
+  
+  .tetris__intro {
+    text-align: center;
+    color: #eee;
+  
+    h2 {
+      margin-top: 50px;
+      font-size: 40px;
+      margin-bottom: 60px;
+    }
+  
+    li {
+      list-style: none;
+      line-height: 1.6;
+      font-size: 20px;
+      margin-bottom: 50px;
+    }
+  }
+  
+  .tetris__card {
+    display: none;
+  }
+  
+  .tetris__header {
+    text-align: center;
+  
+    h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      margin-top: 40px;
+      color: #fff;
+    }
+  }
+  
+  .tetris__info {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  .tetris__close {
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    width: 25px;
+    height: 25px;
+    color: white;
+    font-size: 38px;
+  }
+  
+  .tetris__music {
+    position: relative;
+  
+    .play, .stop {
+      position: absolute;
+      right: 19%;
+      bottom: 30px;
+      display: none;
+    }
+  }
+  
+  .tetris__start {
+    font-size: 45px;
+    width: 200px;
+    position: absolute;
+    left: 35%;
+    transition: all 0.3s;
+    margin-top: 50px;
+  
+    &:hover {
+      scale: 1.25;
+    }
+  }
+  
+  .tetris__restart {
+    display: none;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    width: 350px;
+    height: 400px;
+    font-size: 25px;
+    padding: 140px 30px;
+    border-radius: 10px;
+    transform: scale(0);
+    animation: flicker 1.5s infinite alternate;
+    position: absolute;
+    left: 19%;
+    top: 28%;
+    line-height: 1.4;
+  
+    .restart {
+      font-size: 48px;
+      margin-top: 24px;
+    }
+  }
+  
+  .tetris_play {
+    width: 379px;
+    position: absolute;
+    left: 16%;
+    top: 21%;
+  }
+  
+  .playground > ul {
+    border: 2px solid rgba(213, 180, 236);
+  
+    > li {
+      list-style: none;
+      width: 100%;
+      height: 32px;
+  
+      > ul {
+        display: flex;
+  
+        > li {
+          list-style: none;
+          width: 32px;
+          height: 32px;
+          border: 1px solid #fff;
+        }
+      }
+    }
+  }
+  
+  .Tmino {
+    border: 10px #a042a2 outset !important;
+    background-color: #952d98;
+  }
+  
+  .Lmino {
+    border: 10px #ff861a outset !important;
+    background-color: #ff7900;
+  }
+  
+  .Jmino {
+    border: 10px #1a74c4 outset !important;
+    background-color: #0065bd;
+  }
+  
+  .Zmino {
+    border: 10px #ef3e4d outset !important;
+    background-color: #ed2939;
+  }
+  
+  .Smino {
+    border: 10px #78c53e outset !important;
+    background-color: #69be28;
+  }
+  
+  .Omino {
+    border: 10px #fed01a outset !important;
+    background-color: #fecb00;
+  }
+  
+  .Imino {
+    border: 10px #1aa9de outset !important;
+    background-color: #009fda;
+  }
+  
